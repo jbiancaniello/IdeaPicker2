@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <HBox prefHeight="556.0" prefWidth="420.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="530.0" prefWidth="210.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Restaurant(Casual/Takeout)" textAlignment="CENTER" />
+                  <Button mnemonicParsing="false" text="Restaurant(Fancy/Sitdown)">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Something to Watch" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="574.0" prefWidth="210.0">
+               <children>
+                  <Button alignment="CENTER" mnemonicParsing="false" text="Things to Cook" textAlignment="CENTER" />
+                  <Button mnemonicParsing="false" text="Date Ideas" />
+                  <Button mnemonicParsing="false" text="Trip Ideas" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <Label text="Please Select A Category Below!" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </top>
+   <left>
+      <VBox prefHeight="556.0" prefWidth="210.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="556.0" prefWidth="210.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
